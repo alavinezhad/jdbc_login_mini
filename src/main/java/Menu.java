@@ -27,7 +27,7 @@ public class Menu {
     public void signUp() throws SQLException {
         userService.signUp();
     }
-    public void signIn() {
-
+    public void signIn() throws SQLException {
+        userService.signIn();
     }
 }
